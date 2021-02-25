@@ -32,6 +32,7 @@ header {
 
 #results {
   text-align: center;
+  display: none;
 }
 
 #calculator input {

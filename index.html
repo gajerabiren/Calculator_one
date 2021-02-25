@@ -15,13 +15,15 @@
    
 
     <section id="calculator">
-      <input type="number" id="input-number"/>
-      <input type="number" id="input-two"/>
+      <input value="0" onkeypress="return validateNumber(event)" id="input-number"/>
+      <input value="0" onkeypress="return validateNumber(event)" id="input-two"/>
       <div id="calc-actions">
         <button type="button" id="btn-add">+</button>
         <button type="button" id="btn-subtract">-</button>
         <button type="button" id="btn-multiply">*</button>
         <button type="button" id="btn-divide">/</button>
+        <button type="button" id="equalto">=</button>
+        <button type="button" id="all-clear">AC</button>
       </div>
     </section>
     <section id="results">
